@@ -8,7 +8,7 @@
 
 <div>
 	<p class='text-green-500 text-5xl text-center'>La diversión comenzará en:</p>
-	<div class="flex gap-2">
+	<div class="flex flex-wrap justify-center gap-2 m-sm-2">
 		<Unit value={days} unit="días" />
 		<Unit value={hours} unit="horas" />
 		<Unit value={minutes} unit="min." />
