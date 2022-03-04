@@ -21,7 +21,9 @@
 
 <main class='bg-gray-800 h-screen flex justify-center'>
 	<div class='flex items-center'>
-		<Timer {...{days, hours, minutes, seconds}} />
+                <h1 class="text-blue-300 text-4xl">
+                   ¡La diversión empezó!
+                </h1>
 	</div>
 </main>
 
