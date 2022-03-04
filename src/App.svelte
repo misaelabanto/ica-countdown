@@ -5,7 +5,7 @@
 	let hours: number;
 	let minutes: number;
 	let seconds: number;
-	const leaveDate = DateTime.fromISO('2022-03-04T01:00:00Z')
+	const leaveDate = DateTime.fromISO('2022-03-04T02:00:00Z')
 	function updateTimer() {
 		const timeDiff = leaveDate.diffNow('minutes').shiftTo('days', 'hours', 'minutes', 'seconds')
 		days = timeDiff.days
