@@ -5,7 +5,7 @@
 	let hours: number;
 	let minutes: number;
 	let seconds: number;
-	const leaveDate = DateTime.fromISO('2022-03-04T02:00:00Z')
+	const leaveDate = DateTime.fromISO('2023-01-20T15:00:00Z')
 	function updateTimer() {
 		const timeDiff = leaveDate.diffNow('minutes').shiftTo('days', 'hours', 'minutes', 'seconds')
 		days = timeDiff.days
@@ -21,9 +21,7 @@
 
 <main class='bg-gray-800 h-screen flex justify-center'>
 	<div class='flex items-center'>
-                <h1 class="text-blue-300 text-4xl">
-                   ¡La diversión empezó!
-                </h1>
+                <Timer days={days} hours={hours} minutes={minutes} seconds={seconds} />
 	</div>
 </main>
 
